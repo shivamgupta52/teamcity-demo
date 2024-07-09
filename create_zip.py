@@ -5,7 +5,7 @@ def create_dummy_files(directory):
     os.makedirs(directory, exist_ok=True)
     for i in range(5):
         with open(os.path.join(directory, f'dummy_file_{i}.txt'), 'w') as f:
-            f.write('This is a dummy file..\n')
+            f.write('This is a dummy file...\n')
 
 def zip_directory(directory, zip_name):
     with zipfile.ZipFile(zip_name, 'w') as zipf:
