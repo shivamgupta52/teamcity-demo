@@ -13,7 +13,7 @@ def zip_directory(directory, zip_name):
             for file in files:
                 zipf.write(os.path.join(root, file), 
                            os.path.relpath(os.path.join(root, file), 
-                           os.path.join(directory, '..')))
+                           os.path.join(directory, '...')))
 
 if __name__ == "__main__":
     dummy_dir = 'dummy_files'
