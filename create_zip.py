@@ -20,4 +20,3 @@ if __name__ == "__main__":
     zip_file = 'dummy_files.zip'
     create_dummy_files(dummy_dir)
     zip_directory(dummy_dir, zip_file)
-
